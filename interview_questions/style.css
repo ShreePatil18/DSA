@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.login-form {
+    padding: 40px;
+    width: 300px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form p {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.login-form a {
+    color: #4a00e0;
+    text-decoration: none;
+}
+
+.login-form .input-group {
+    margin-bottom: 15px;
+}
+
+.login-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form .input-group .forgot-password {
+    float: right;
+    font-size: 0.9em;
+}
+
+.login-form .remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-form .remember-me input {
+    margin-right: 5px;
+}
+
+.login-form .login-button {
+    width: 100%;
+    padding: 10px;
+    background: #4a00e0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-form .login-button:hover {
+    background: #8e2de2;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.social-login button {
+    width: 48%;
+    padding: 10px;
+    margin: 0 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.google-login {
+    background: #db4437;
+}
+
+.facebook-login {
+    background: #3b5998;
+}
+
+.illustration {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+
+.illustration img {
+    max-width: 400px;
+    height: auto;
+}
